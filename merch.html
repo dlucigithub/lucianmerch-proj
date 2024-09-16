@@ -5,6 +5,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>#lucianmerch - Exclusive Merchandise</title>
   <link rel="stylesheet" href="merchCSS.css"> <!-- Link your CSS here -->
+  <style>
+    .cta-button, .buy-button, .compete-button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #0071e3; /* Apple blue */
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      text-align: center;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    .cta-button:hover, .buy-button:hover, .compete-button:hover {
+      background-color: #005bb5;
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -17,6 +34,7 @@
         <li><a href="merch.html">Merch</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="competition.html" class="compete-button">Competition</a></li> <!-- Added button for Competition -->
       </ul>
     </nav>
   </header>
@@ -25,7 +43,7 @@
     <div class="hero">
       <h2>Welcome to #lucianmerch!</h2>
       <p>Explore our exclusive range of merchandise and represent the brand in style.</p>
-      <button class="cta-button">Shop Now</button>
+      <a href="competition.html" class="cta-button">Join Competition</a> <!-- Added button for Competition -->
     </div>
   </section>
 
@@ -36,28 +54,28 @@
         <img src="lucianshirt.jpg" alt="#lucianmerch T-Shirt">
         <h3>#lucianmerch T-Shirt</h3>
         <p>A classic, comfortable tee with the iconic #lucianmerch logo.</p>
-        <button class="buy-button">Buy Now</button>
+        <a href="bought.html" class="buy-button">Buy Now</a> <!-- Changed button to link -->
       </div>
 
       <div class="merch-item">
         <img src="lucianwatch.jpg" alt="#lucianmerch watch (DIGITAL)">
         <h3>#lucianmerch watch</h3>
         <p>I don't know if the programmers included Kassandra with it, original and not stolen from Apple.</p>
-        <button class="buy-button">Buy Now</button>
+        <a href="bought.html" class="buy-button">Buy Now</a> <!-- Changed button to link -->
       </div>
 
       <div class="merch-item">
         <img src="meowl.jpg" alt="#lucianmerch signature animal">
         <h3>#lucianmerch MEOWL</h3>
         <p>Does this count as merch?</p>
-        <button class="buy-button">Buy Now</button>
+        <a href="bought.html" class="buy-button">Buy Now</a> <!-- Changed button to link -->
       </div>
 
       <div class="merch-item">
         <img src="renzo.jpg" alt="#lucianmerch RENZO">
         <h3>#lucianmerch RENZO</h3>
         <p>This isn't even related to #lucianmerch</p>
-        <button class="buy-button">Buy Now</button>
+        <a href="bought.html" class="buy-button">Buy Now</a> <!-- Changed button to link -->
       </div>
     </div>
   </section>
